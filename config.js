@@ -4,11 +4,11 @@ import { fileURLToPath } from 'url'
 
 global.config = {
     /*============== INFO LINK ==============*/
-    instagram: 'https://www.instagram.com/zackfor_developer2/',
-    github: 'https://github.com/ZackDevOfficial',
-    group: 'https://chat.whatsapp.com/LC38UAIAW2vCTIvMLe5KIj',
-    website: 'https://linktr.ee/ryzen_official',
-    saluran: 'https://whatsapp.com/channel/0029Vag7ynqBFLgQVrX1Z63Q',
+    instagram: 'https://www.instagram.com/encos_thea233',
+    github: 'https://github.com/kardi657',
+    group: '-',
+    website: 'https://encos.my.id',
+    saluran: '-',
 
     /*============== PAYMENT ==============*/
     dana: '085183034194',
@@ -22,7 +22,7 @@ global.config = {
     ],
 
     /*============= PAIRING =============*/
-    pairingNumber: "628551111476",
+    pairingNumber: "6285183034194",
     pairingAuth: true,
 
     /*============== API ==============*/
