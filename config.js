@@ -11,18 +11,18 @@ global.config = {
     saluran: 'https://whatsapp.com/channel/0029Vag7ynqBFLgQVrX1Z63Q',
 
     /*============== PAYMENT ==============*/
-    dana: '08176016737',
-    ovo: '-',
-    gopay: '08176016737',
-    pulsa: '-',
+    dana: '085183034194',
+    ovo: '085183034194',
+    gopay: '085280386272',
+    pulsa: '085183034194',
 
     /*============== STAFF ==============*/
     owner: [
-        ['6285879522174', 'ZackDev', true]
+        ['16312176248', 'ncos', true]
     ],
 
     /*============= PAIRING =============*/
-    pairingNumber: "628176016737",
+    pairingNumber: "628551111476",
     pairingAuth: true,
 
     /*============== API ==============*/
@@ -31,6 +31,7 @@ global.config = {
         rose: 'https://api.itsrose.rest',
         xzn: 'https://skizoasia.xyz',
         betabotz : 'https://api.betabotz.eu.org',
+        btz : 'https://api.botcahx.eu.org',
     },
 
     APIKeys: {
@@ -38,6 +39,7 @@ global.config = {
         'https://api.itsrose.rest': 'Rk-f5d4b183e7dd3dd0a44653678ba5107c',
         'https://skizoasia.xyz': 'zenOfficial',
         'https://api.betabotz.eu.org': 'ZenOfficial',
+        'https://api.botcahx.eu.org':'Kodok123456',
     },
 
     /*============== TEXT ==============*/
@@ -67,9 +69,9 @@ global.config = {
 
 global.loading = (m, conn, back = false) => {
     if (!back) {
-        return conn.sendReact(m.chat, "🕒", m.key)
+        return conn.sendReact(m.chat, "🍬", m.key)
     } else {
-        return conn.sendReact(m.chat, "", m.key)
+        return conn.sendReact(m.chat, "🍍", m.key)
     }
 }
 
@@ -171,25 +173,32 @@ global.rpg = {
         }
     }
 }
-
 // APIKEY INI WAJIB DI ISI! //
-global.btc = 'YOUR_APIKEY_HERE' 
+
+global.btc = 'Kodok123456' 
+
 //Daftar terlebih dahulu https://api.botcahx.eu.org
 
-
-
 // INI HANYA OPTIONAL SAJA BOLEH DI ISI BOLEH JUGA ENGGA //
-global.btz = 'Btz-ORHUS'
+
+global.btz = 'Kodok123456'
+
 //Daftar https://api.betabotz.eu.org 
 
 //Gausah diganti atau di ubah
+
 global.APIs = {   
+
   btc: 'https://api.botcahx.eu.org'
+
 }
 
 //Gausah diganti atau di ubah
+
 global.APIKeys = { 
-  'https://api.betabotz.eu.org': global.btz
+
+  'https://api.botcahx.eu.org': global.btz
+
 }
 //------ JANGAN DIUBAH -----
 let file = fileURLToPath(import.meta.url)
