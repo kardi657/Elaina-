@@ -22,7 +22,7 @@ global.config = {
     ],
 
     /*============= PAIRING =============*/
-    pairingNumber: "6285183034194",
+    pairingNumber: "628161444194",
     pairingAuth: true,
 
     /*============== API ==============*/
